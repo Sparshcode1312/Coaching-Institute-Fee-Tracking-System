@@ -1,0 +1,171 @@
+export type Language = 'en' | 'hi';
+
+export const translations = {
+  en: {
+    // Brand & App
+    appName: 'Company A Coaching Institute',
+    parentPortal: 'Parent Portal',
+    accountsPortal: 'Accounts Command Centre',
+    tagline: 'Fee Management & Student Academic Portal',
+
+    // Common Actions
+    payNow: 'Pay Now',
+    payCustom: 'Pay Custom Amount',
+    viewDetails: 'View Details',
+    downloadReceipt: 'Download Receipt',
+    cancel: 'Cancel',
+    confirm: 'Confirm',
+    back: 'Back',
+    submit: 'Submit',
+    loading: 'Loading...',
+    refresh: 'Refresh',
+    logout: 'Sign Out',
+    search: 'Search by student name or roll number...',
+    allCentres: 'All Centres',
+    allBatches: 'All Batches',
+    allStatuses: 'All Statuses',
+
+    // Parent Dashboard (Five-Second Rule)
+    studentProfile: 'Student Profile',
+    totalOutstanding: 'Total Outstanding Balance',
+    nextDueDate: 'Next Instalment Due Date',
+    dueToday: 'Due Today',
+    overdueBy: 'Overdue by',
+    days: 'days',
+    allClear: 'All Fees Cleared',
+    instalmentHistory: 'Instalment Milestones',
+    recentPayments: 'Recent Payments',
+    attendanceSummary: 'Attendance Summary',
+    testScoreSummary: 'Latest Test Results',
+    viewFullHistory: 'View Full Fee Ledger',
+
+    // Financial Milestones & States
+    instalment: 'Instalment',
+    amountDue: 'Amount Due',
+    paidAmount: 'Amount Paid',
+    status: 'Status',
+    dueDate: 'Due Date',
+    paid: 'Paid',
+    partiallyPaid: 'Partially Paid',
+    unpaid: 'Unpaid',
+    overdue: 'Overdue',
+    upcoming: 'Upcoming',
+    settled: 'Settled',
+
+    // Payment Checkout & Result
+    checkoutTitle: 'Complete Fee Payment',
+    payableAmount: 'Authoritative Payable Amount',
+    paymentMethod: 'Select Payment Method',
+    upiGooglePay: 'UPI / Google Pay / PhonePe',
+    cardNetBanking: 'Debit / Credit Card / NetBanking',
+    verifyingPayment: 'Verifying payment authenticity with bank...',
+    paymentSuccess: 'Payment Successful',
+    paymentFailed: 'Payment Failed',
+    paymentSuccessSub: 'Your transaction has been securely captured and verified.',
+    receiptNumber: 'Receipt Number',
+    transactionRef: 'Transaction Reference',
+
+    // Academic
+    attendance: 'Attendance',
+    testScores: 'Test Scores',
+    classesAttended: 'Classes Attended',
+    batchRank: 'Batch Rank',
+    percentile: 'Percentile',
+    marks: 'Marks',
+
+    // Accounts Command Centre
+    totalBilled: 'Total Billed Revenue',
+    totalCollected: 'Total Collected Fee',
+    totalPending: 'Total Outstanding Dues',
+    criticalOverdue: 'Critical Overdue (>30 Days)',
+    studentsDirectory: 'Students Accounts Directory',
+    unmatchedQueue: 'Unmatched Bank Queue',
+    refundCalculator: 'Refund Calculator',
+    tallyExport: 'Export to Tally ERP',
+    reminderLogs: 'Reminder Communication Logs',
+  },
+  hi: {
+    // Brand & App
+    appName: 'कंपनी ए कोचिंग संस्थान',
+    parentPortal: 'अभिभावक पोर्टल',
+    accountsPortal: 'लेखा नियंत्रण कक्ष',
+    tagline: 'शुल्क प्रबंधन एवं विद्यार्थी शैक्षणिक पोर्टल',
+
+    // Common Actions
+    payNow: 'अभी भुगतान करें',
+    payCustom: 'अन्य राशि भरें',
+    viewDetails: 'विवरण देखें',
+    downloadReceipt: 'रसीद डाउनलोड करें',
+    cancel: 'रद्द करें',
+    confirm: 'पुष्टि करें',
+    back: 'पीछे जाएं',
+    submit: 'जमा करें',
+    loading: 'लोड हो रहा है...',
+    refresh: 'ताज़ा करें',
+    logout: 'लॉग आउट',
+    search: 'छात्र का नाम या रोल नंबर खोजें...',
+    allCentres: 'सभी केंद्र',
+    allBatches: 'सभी बैच',
+    allStatuses: 'सभी स्थितियाँ',
+
+    // Parent Dashboard (Five-Second Rule)
+    studentProfile: 'विद्यार्थी विवरण',
+    totalOutstanding: 'कुल बकाया शुल्क राशि',
+    nextDueDate: 'अगली किस्त की देय तिथि',
+    dueToday: 'आज देय है',
+    overdueBy: 'विलंबित:',
+    days: 'दिन',
+    allClear: 'समस्त शुल्क चुकता है',
+    instalmentHistory: 'किस्त विवरण',
+    recentPayments: 'हाल के भुगतान',
+    attendanceSummary: 'उपस्थिति विवरण',
+    testScoreSummary: 'नवीनतम परीक्षा परिणाम',
+    viewFullHistory: 'पूर्ण शुल्क बहीखाता देखें',
+
+    // Financial Milestones & States
+    instalment: 'किस्त',
+    amountDue: 'देय राशि',
+    paidAmount: 'जमा राशि',
+    status: 'स्थिति',
+    dueDate: 'देय तिथि',
+    paid: 'पूर्ण भुगतान',
+    partiallyPaid: 'आंशिक भुगतान',
+    unpaid: 'अदत्त',
+    overdue: 'अतिदेय (विलंबित)',
+    upcoming: 'आगामी',
+    settled: 'चुकता',
+
+    // Payment Checkout & Result
+    checkoutTitle: 'शुल्क भुगतान पूर्ण करें',
+    payableAmount: 'आधिकारिक देय राशि',
+    paymentMethod: 'भुगतान माध्यम चुनें',
+    upiGooglePay: 'यूपीआई / गूगल पे / फोनपे',
+    cardNetBanking: 'डेबिट कार्ड / क्रेडिट कार्ड / नेटबैंकिंग',
+    verifyingPayment: 'बैंक के साथ भुगतान सत्यापित हो रहा है...',
+    paymentSuccess: 'भुगतान सफल रहा',
+    paymentFailed: 'भुगतान विफल रहा',
+    paymentSuccessSub: 'आपका लेनदेन सुरक्षित रूप से दर्ज और सत्यापित कर लिया गया है।',
+    receiptNumber: 'रसीद संख्या',
+    transactionRef: 'लेनदेन संदर्भ',
+
+    // Academic
+    attendance: 'उपस्थिति',
+    testScores: 'परीक्षा परिणाम',
+    classesAttended: 'उपस्थित कक्षाएं',
+    batchRank: 'बैच रैंक',
+    percentile: 'पर्सेंटाइल',
+    marks: 'प्राप्तांक',
+
+    // Accounts Command Centre
+    totalBilled: 'कुल निर्धारित शुल्क',
+    totalCollected: 'कुल एकत्रित शुल्क',
+    totalPending: 'कुल बकाया राशि',
+    criticalOverdue: 'गंभीर विलंबित (>30 दिन)',
+    studentsDirectory: 'विद्यार्थी खाता पंजी',
+    unmatchedQueue: 'अमिलान बैंक लेनदेन सूची',
+    refundCalculator: 'धनवापसी (रिफंड) गणक',
+    tallyExport: 'टैली ईआरपी में निर्यात करें',
+    reminderLogs: 'स्मरण पत्र प्रेषण विवरण',
+  },
+};
+
